@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.bimage{
+    background-image: url("./images/background.jpg");
+    background-color: #cccccc;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100% 100vh;
+    width: 100%;
+    
+}
+.headertext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+   
+}
+.name{
+    font-size: 5.623rem !important;
+    color: #7B3C3C;
+    font-family: "Sacramento", cursive;
+}
+.work{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    margin-top: 0;
+    color: #DB5F29;
+}
+
+.section2 , .section4{
+    height: 60vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.profileimage{
+    height: 20vh;
+    width: 20vh;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+.para{
+    color: #40514e;
+    
+    text-align: center;
+    font-family: "Merriweather", serif;
+    width:30%; line-height:2;
+
+}
+.section3{
+    background-color: #efefef;
+    padding-bottom: 10px;
+}
+.container{
+    width: 70%;
+    margin: auto;
+    margin-bottom: 40px;
+   
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.icon{
+    border: 2px solid #7B3C3C ;
+    box-shadow: 4px 5px 4px 3px #875f5f !important;
+    
+    justify-content:center;
+    text-align: center;
+    font-size: 3.5em;
+    height:70px;
+    width: 200px;
+    color: #7B3C3C;
+    margin: 6px;
+    vertical-align: middle;
+}
+
+svg{
+    vertical-align: middle;
+}
+.btn{
+    background-color: white;
+    color: #7B3C3C;
+    border: 2px solid #7B3C3C;
+    border-radius: 5px;
+    height: 5vh;
+    
+}
+.purple{
+    color:#7B3C3C ;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.section4{
+    height: 30vh !important;
+}
+
+.email{
+    color: #40514e;
+    font-family: "Merriweather", serif;
+}
+.footer{
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    background-color: #efefef;
+}
+.row2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+.copyright{
+    margin: auto;
+}
+.smcontainer{
+    margin: auto;
+    display: flex;
+    gap: 20px;
+   
+}
+
+.copyright{
+    color: #7B3C3C;
+}
+a{
+    color: #7B3C3C;
+}
+
